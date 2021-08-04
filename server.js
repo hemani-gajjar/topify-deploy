@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const SpotifyWebApi = require("spotify-web-api-node");
-const lyricsFinder = require("lyrics-finder");
+var path = require("path");
 const app = express();
 
 //cors errors
