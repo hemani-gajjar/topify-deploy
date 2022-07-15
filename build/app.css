@@ -56,6 +56,7 @@
   padding: 0;
   margin: 0 1rem;
   font-weight: bolder;
+  text-align: center;
 }
 
 .login-container h3 {
@@ -409,8 +410,12 @@
   text-align: center;
 }
 
+.top-track-card img {
+  border-radius: 0.2rem;
+}
+
 .main-container h1 {
-  padding: 1.6rem 0 1rem 0;
+  padding: 0rem 0 1.5rem 0;
   font-size: 2rem;
 }
 
@@ -583,11 +588,11 @@ select option {
 .btn-container button {
   background-color: #3c3f5f;
   color: #eeeeee;
-  margin-right: 3rem;
+  margin: 1rem 3rem 0rem 0rem;
   outline: 0;
   border: 0;
   width: 8rem;
-  height: 2.1rem;
+  height: 2.5rem;
   border-radius: 0.5rem;
   font-size: 1.1rem;
 }
@@ -607,6 +612,7 @@ select option {
 .text-container {
   text-align: left;
   background-color: #3c415c;
+  border-radius: 0.2rem;
   padding: 1.5rem;
   min-height: 210px;
   max-width: 250px;
@@ -627,6 +633,7 @@ select option {
 }
 
 /* -------------- FOOTER------------------ */
+
 footer {
   width: 98%;
   font-weight: normal;
@@ -635,4 +642,151 @@ footer {
   position: absolute;
   bottom: 0;
   padding: 1rem;
+}
+
+footer a {
+  color: #4e527e;
+}
+
+footer a:hover {
+  color: #b2b1b9;
+}
+
+/* ----------- userIcon ------------ */
+
+.userIcon {
+  text-align: right;
+}
+
+.userIcon img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.userIcon button {
+  background: #353753;
+  height: 3rem;
+  border-radius: 1.5rem;
+  width: fit-content;
+}
+.userIcon:hover button {
+  background: #4e527e;
+}
+
+.menu-profile a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ------------ Generate Playlists ------------*/
+
+.picked-artists img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+}
+
+.picked-artists .row {
+  align-items: center;
+  display: flex;
+}
+
+.generate-playlist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #2c2e43;
+  padding: 0rem 0rem 5vh 0rem;
+}
+
+.generate-playlist .left {
+  flex: 60%;
+}
+
+.generate-playlist .right {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist-card {
+  background-color: #2c2e43;
+  width: 10rem;
+  height: 10rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.generate-playlist-container {
+  padding: 1rem 2rem 2rem 3rem;
+  min-height: 60vh;
+}
+
+.generate-playlist-container h1 {
+  margin: 1rem;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.generate-playlist-container .right {
+  padding: 5rem 1rem 1rem 1rem;
+}
+
+/*-----------  Unique Music Section -----------------*/
+
+.unique-music {
+  padding: 2rem;
+}
+
+.unique-music img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+}
+
+.unique-tracks h1,
+.unique-artists h1 {
+  padding: 0rem 0rem 3rem 0rem;
+}
+
+.unique-tracks {
+  padding: 1rem;
+}
+
+.unique-artists {
+  padding: 3rem 1rem 2rem 1rem;
+}
+
+/* ------- Homepage Footer ----------*/
+
+.homepage-footer {
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.homepage-footer p {
+  display: inline;
+  margin: 0rem 1rem 0rem 1rem;
+  color: #4e527e;
+}
+
+.homepage-footer span {
+  color: #4e527e;
+}
+
+.homepage-footer a {
+  margin: 0rem 1rem 0rem 1rem;
+  color: #4e527e;
+  text-underline-offset: 0.2rem;
+}
+
+.homepage-footer a:hover {
+  color: #b2b1b9;
+}
+
+.homepage-footer p::selection,
+.homepage-footer span::selection,
+.homepage-footer a::selection {
+  background-color: #595260;
+  color: #b2b1b9;
 }

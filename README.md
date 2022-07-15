@@ -12,7 +12,7 @@
 ## About The Project
 
 <p>Topify is a web interface for Spotify users to look at their top tracks and artists.
-Users are authenticated with spotify to get the required data. </p>
+Users are authenticated with spotify to get the required data. This repository is used to deploy the application on Heroku. Checkout the Source Code for the application here: </p>
 Project Repository Link: https://github.com/hemani-gajjar/Topify
 
 <!-- USAGE EXAMPLES -->
